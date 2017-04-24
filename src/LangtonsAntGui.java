@@ -45,7 +45,7 @@ public class LangtonsAntGui
     	m_grid = new LangtonsAntGridRenderer(this, m_columnCount, m_rowCount);
 
 //	The frame is set as a new JFrame.
-    	m_frame = new JFrame("GameOfLife");
+    	m_frame = new JFrame("Langton's Ant");
 
 //	This is where the x-button on the window is detailed. The window closes when that button is clicked.
         m_frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
